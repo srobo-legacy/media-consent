@@ -10,6 +10,7 @@
 %% form-like fields %%
 \newcommand{\checkbox}[1]{#1\hspace{0.2cm}\raisebox{-0.3mm}{$\square$}}
 \newcommand{\textfield}[1]{\textbf{#1:} \hrulefill\hspace{0mm}}
+\newcommand{\textfieldblank}[1]{\textbf{#1:} \hfill\hspace{0mm}}
 \newcommand{\fieldsep}{\\[2.5mm]}
 \newcommand{\textfieldline}{{\hrule\hspace{2mm}\fieldsep}}
 
@@ -45,8 +46,8 @@ This form serves the purpose of informing us of your media consent.
 
 \textbf{\large Entrant Details}\\\vspace{-2mm}
 
-\textfield{First name}  \textfield{Surname} \fieldsep
-\textfield{Username} \textfield{College} \fieldsep
+\textfieldblank{First name}  \textfieldblank{Surname} \fieldsep
+\textfieldblank{Username} \textfieldblank{College} \fieldsep
 \textfield{Home Address} \fieldsep
 \textfieldline
 
